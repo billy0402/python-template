@@ -24,10 +24,12 @@ $ python src/main.py
 
 ```shell
 # style checking
-$ flake8 .
+$ ruff check .
+
+$ black .
 
 # type checking
-$ mypy .
+$ pyright .
 ```
 
 ## Testing
