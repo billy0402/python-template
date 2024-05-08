@@ -1,0 +1,25 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Billy Huang <10646003@ntub.edu.tw>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "7.0.0"
+flake8-commas = "2.1.0"
+flake8-quotes = "3.4.0"
+mypy = "1.10.0"
+yapf = "0.40.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "8.1.1"

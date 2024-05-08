@@ -11,7 +11,7 @@ My Python template.
 ## Installation
 
 ```shell
-$ pipenv install
+$ poetry install
 ```
 
 ## Getting Started
