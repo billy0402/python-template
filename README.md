@@ -4,14 +4,14 @@ My Python template.
 
 ## Development environment
 
-- [macOS 12.7.2](https://www.apple.com/tw/macos/monterey/)
-- [Visual Studio Code 1.85.1](https://code.visualstudio.com/)
+- [macOS 12.7.6](https://www.apple.com/tw/macos/monterey/)
+- [Visual Studio Code 1.93.0](https://code.visualstudio.com/)
 - [Python 3.11.7](https://www.python.org/)
 
 ## Installation
 
 ```shell
-$ poetry install
+$ make install
 ```
 
 ## Getting Started
@@ -24,18 +24,16 @@ $ python src/main.py
 
 ```shell
 # style checking
-$ ruff check .
-
-$ black .
+$ make lint
 
 # type checking
-$ pyright .
+$ make typecheck
 ```
 
 ## Testing
 
 ```shell
-$ pytest
+$ make test
 ```
 
 ## Bugs and suggestions
